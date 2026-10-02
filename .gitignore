@@ -1,0 +1,8 @@
+env/
+.venv/
+*.pt
+*.weights
+*.caffemodel
+*.mp4
+lab7/datasets/
+__pycache__/
