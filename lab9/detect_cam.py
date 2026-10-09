@@ -4,8 +4,7 @@ from ultralytics import YOLO
 from pathlib import Path
 
 # ตำแหน่งโมเดลที่ฝึกเสร็จแล้ว
-model_path = Path(r"C:\Users\kotch\runs\detect\train\weights\best.pt")
-
+model_path = Path("runs/detect/train/weights/best.pt")
 # ตรวจสอบว่าไฟล์โมเดลมีอยู่จริง
 if not model_path.exists():
     raise FileNotFoundError(
